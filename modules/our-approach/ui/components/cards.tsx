@@ -14,7 +14,7 @@ export default function Cards({
   text2,
 }: HeadersProps) {
   return (
-    <div className="w-3/8 bg-linear-to-r from-[#251e35] to-[#0f0d14] p-12 rounded-2xl ml-44 mt-20 shadow">
+    <div className="w-6/8 bg-linear-to-r from-[#362c52] to-[#1a1429] p-12 rounded-2xl ml-44 mt-20 shadow">
       <div className="flex items-center bg-[#0f0d14] p-2 rounded-2xl w-3/10">
         <Icon className="size-4 text-purple-400" />
         <p className="text-xs text-white pl-2">{content}</p>

@@ -9,6 +9,7 @@ export const HEADERS = {
     description:
       "Our service centers on you. We're an everyday partner who takes real action with genuine care.",
     description2: "",
+    titleClassName: "text-white",
   },
   DoneRightPlaybook: {
     icon: BadgeCheck,
@@ -19,6 +20,7 @@ export const HEADERS = {
       "No more static specs or siloed information. Dedicated specialists qualify all nuances into one",
     description2:
       "cohesive whole. Every element is always dynamic, stays connected and lives in action.",
+    titleClassName: "text-white",
   },
   YourExperience: {
     icon: Sparkles,
@@ -29,6 +31,7 @@ export const HEADERS = {
       "No more gaps or missing context. All information expands on what came before.",
     description2:
       "Every action and decision builds on the last. Progress doesn't feel like pressure.",
+    titleClassName: "text-white",
   },
   SeamlessExecution: {
     icon: Rocket,
@@ -39,6 +42,9 @@ export const HEADERS = {
       "Expectations unify by default. Accountability is a byproduct. EternaCloud keeps track of all the",
     description2:
       "little things, so you don't have to. Bring data center operations together like never before.",
+    titleClassName: "text-black",
+    bgClassName: "bg-[#f9f9f9]",
+    contentClassName: "bg-white text-black font-bold",
   },
 };
 
@@ -70,5 +76,23 @@ export const CARD_CONTENT = [
     text1: "Your requests, decisions and changes set the course.",
     text2:
       "We own the process that gets you where you're going with ease, perfecting every detail along the way.",
+  },
+];
+
+export const SEAMLESS_EXECUTION = [
+  {
+    title: "Design",
+    content: "Details you specify once carry forward everywhere. We make sure they don’t get bypassed.",
+    image: "/left.png",
+  },
+  {
+    title: "Engineering",
+    content: "Your builds have clarity built-in. We curate what’s needed, what’s changed and why it matters.",
+    image: "/centre.png",
+  },
+  {
+    title: "Construction",
+    content: "Materials you need on site get validated and tracked on multiple levels. Nothing shows up half-right.",
+    image: "/right.png",
   },
 ];

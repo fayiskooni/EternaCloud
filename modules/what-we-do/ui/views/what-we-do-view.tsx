@@ -9,7 +9,7 @@ export const WhatWeDoView= () => {
         <section id="section2" className="bg-amber-600 h-[50vh]">
           section 2
         </section>
-        <section id="section3" className="bg-amber-950 h-[100vh]">
+        <section id="section3" className="bg-amber-950 h-screen">
           section 3
         </section>
       </div>

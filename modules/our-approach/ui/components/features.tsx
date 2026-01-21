@@ -25,8 +25,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="mt-24">
-      <div className="bg-linear-to-r from-[#251e35] to-[#0f0d14] p-5 rounded-2xl w-5/8">
+      <div className="bg-linear-to-r from-[#362c52] to-[#1a1429] p-5 rounded-2xl w-5/8">
         {features.map((feature) => {
           return (
             <div key={feature.title} className=" m-4">
@@ -39,7 +38,6 @@ const Features = () => {
           );
         })}
       </div>
-    </div>
   );
 };
 
