@@ -8,7 +8,7 @@ type HeadersProps = {
 
 export default function PictureCards({ title, content, image }: HeadersProps) {
   return (
-    <div className="bg-white w-[350px] h-[450px] rounded-2xl mr-1 ml-1 mt-14 relative overflow-hidden">
+    <div className="bg-white w-87.5 h-112.5 rounded-2xl mr-1 ml-1 mt-14 relative overflow-hidden">
       <div className="p-10 text-black">
         <p className="text-2xl font-bold mb-5">{title}</p>
         <p className="text-lg">{content}</p>

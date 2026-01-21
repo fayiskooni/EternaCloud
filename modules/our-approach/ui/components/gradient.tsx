@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function GradientImage() {
   return (
-    <div className="relative w-full h-[600px] overflow-hidden mt-10">
+    <div className="relative w-full h-150 overflow-hidden mt-10">
       <Image
         src="/gradient.png"
         alt="Footer background"
