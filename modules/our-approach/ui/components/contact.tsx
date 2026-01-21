@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const ContactCard = () => {
   return (
-    <div className="w-full h-187.5 rounded-b-4xl bg-[#f9f9f9]">
+    <div className="w-full h-full rounded-b-4xl bg-[#f9f9f9]">
       <div className="flex flex-col items-center justify-center h-full">
         <div className="relative w-16 h-16 rounded-full mb-10">
           {/* Rainbow border */}

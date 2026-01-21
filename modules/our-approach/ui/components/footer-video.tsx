@@ -2,9 +2,9 @@
 
 export default function FooterVideo() {
   return (
-    <footer className="text-[#a997ce] relative text-sm">
+    <footer className="relative h-screen w-full text-[#a997ce] text-sm overflow-hidden">
       <video
-        className="w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover"
         src={"/flower-video.mp4"}
         autoPlay
         loop
@@ -13,17 +13,20 @@ export default function FooterVideo() {
         preload="auto"
         controls={false}
       />
-      <div className="absolute bottom-5">
-        <div className="flex items-center justify-center">
-          <div className="gap-1 flex">
+
+      <div className="absolute bottom-5 w-full">
+        <div className="flex flex-col items-center justify-center gap-2">
+          <div className="flex gap-4">
             <div>Security</div>
             <div>Privacy</div>
             <div>Terms</div>
           </div>
-          <div>
+
+          <div className="text-center max-w-xl">
             When every point is understood and clear, a seamless experience must
             appear.
           </div>
+
           <div>© EternaCloud 2025</div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import FooterVideo from "../components/footer-video";
 import GradientImage from "../components/gradient";
 import Headers from "../components/headers";
 import ExperienceImage from "../components/image";
+import ShutterSection from "../components/ShutterSection";
 
 export const OurApproachView = () => {
   return (
@@ -50,8 +51,10 @@ export const OurApproachView = () => {
       <GradientImage />
       <Headers {...HEADERS.SeamlessExecution} />
       <CardMap />
-      <ContactCard />
-      <FooterVideo />
+
+      <ShutterSection top={<ContactCard />} bottom={<FooterVideo />} />
+
+      {/* <FooterVideo /> */}
     </>
   );
 };
