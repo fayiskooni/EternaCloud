@@ -15,9 +15,9 @@ export const NavBar = () => {
   ];
 
   return (
-    <div className="fixed left-1/2 -translate-x-1/2 w-[90%] max-w-[800px] z-[99]  md:top-[2em]">
-      <nav className="h-[50px] rounded-xl bg-slate-100 shadow-md">
-        <div className="absolute inset-x-0 top-0 h-[50px] flex items-center justify-between pl-[1.1rem] z-[2]">
+    <div className="fixed left-1/2 -translate-x-1/2 w-[90%] max-w-200 z-99  md:top-[2em]">
+      <nav className="h-12.5 rounded-xl bg-slate-100 shadow-md">
+        <div className="absolute inset-x-0 top-0 h-12.5 flex items-center justify-between pl-[1.1rem] z-2">
           <div className="flex items-center gap-1">
             <div className="relative w-5 h-5 rounded-full">
               {/* Rainbow border */}
@@ -32,7 +32,7 @@ export const NavBar = () => {
               {/* Inner circle to make it border only */}
               <div
                 className="
-      absolute inset-[2px] rounded-full
+      absolute inset-0.5 rounded-full
       bg-slate-100
     "
               ></div>
@@ -41,7 +41,7 @@ export const NavBar = () => {
             <p className="text-lg font-medium text-black">EternaCloud</p>
           </div>
 
-          <div className="flex items-center gap-5 text-black text-xs md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 order-1 md:order-none h-full">
+          <div className="flex items-center gap-5 text-black text-xs md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 order-1 md:order-0 h-full">
             {items.map((item) => {
               const isActive = path === item.url;
               return (
@@ -62,7 +62,7 @@ export const NavBar = () => {
             <Button className="bg-white text-black h-full">
               <SearchIcon />
             </Button>
-            <Button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white text-xs h-full  hover:from-blue-600 hover:to-purple-700 px-8">
+            <Button className="bg-linear-to-r from-blue-500 to-purple-600 text-white text-xs h-full  hover:from-blue-600 hover:to-purple-700 px-8">
               Let&apos;s talk
             </Button>
           </div>

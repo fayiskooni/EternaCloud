@@ -96,3 +96,18 @@ export const SEAMLESS_EXECUTION = [
     image: "/right.png",
   },
 ];
+
+export const BUTTON_IMAGE = [
+  {
+    title: "l",
+    image: "/b1.png",
+  },
+  {
+    title: "c",
+    image: "/b2.png",
+  },
+  {
+    title: "r",
+    image: "/b3.png",
+  },
+]
